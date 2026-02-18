@@ -1,0 +1,16 @@
+[12-Nov-2022 14:56:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/crmon1vv/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/crmon1vv/public_html/config/cache.php on line 18
+[09-Jul-2025 13:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/kurrehxr/public_html/coolsymbol.online/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/kurrehxr/public_html/coolsymbol.online/config/cache.php on line 18
+[30-Nov-2025 18:44:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/kurrehxr/public_html/coolsymbol.online/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2/kurrehxr/public_html/coolsymbol.online/config/database.php on line 18
+[30-Nov-2025 18:44:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home2/kurrehxr/public_html/coolsymbol.online/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/kurrehxr/public_html/coolsymbol.online/config/app.php on line 19

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Sitemap: https://coolsymbol.online/sitemap.xml
+Sitemap: https://coolsymbol.online/l/sitemap.xml
+ 

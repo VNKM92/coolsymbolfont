@@ -1,0 +1,128 @@
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+  .active-left-side {
+    display: block !important;
+    z-index: 9;
+  }
+  .closed-btn-section {
+    display: block;
+  }
+  .toggle-btn-topbar {
+    display: block;
+  }
+  .left-side-admin {
+    display: none;
+  }
+  .right-side {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .top-bar {
+    flex-wrap: wrap;
+  }
+  .main-ds-section {
+    flex-wrap: wrap;
+    row-gap: 11px;
+  }
+  .search-input {
+    padding: 0.375rem;
+    font-size: 13px;
+  }
+  .sec-icon {
+    right: 7px;
+    top: 3px;
+  }
+  .top-notification-section {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .shipment-status-selector .form-select {
+    padding: 6px 9px;
+    font-size: 13px;
+  }
+  .shipment-section ul li a {
+    font-size: 13px;
+  }
+  .top-search-bar .dropdown .btn-toggle {
+    padding: 0px 0px;
+    width: 104px;
+    font-size: 13px;
+  }
+  .top-notification-section a {
+    white-space: nowrap;
+    font-size: 16px;
+  }
+  .top-search-bar {
+    width: 85%;
+  }
+  .topbar-table-section {
+    flex-wrap: wrap;
+  }
+  .common-table-section {
+    padding: 20px 5px;
+  }
+  .filter-section ul {
+    flex-wrap: wrap;
+    row-gap: 13px;
+    justify-content: center !important;
+    column-gap: 16px;
+  }
+  .filter-section ul .filter-list-sec {
+    width: 44%;
+    max-width: 100%;
+  }
+
+  .nav-tab-link span {
+    font-size: 12px;
+  }
+  .nav-tab-custom {
+    margin-bottom: 14px;
+  }
+  .nav-tab-link-active {
+    padding: 10px 19px;
+    white-space: nowrap;
+  }
+  .dashboard-card-section {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .dashboard-card-section {
+    width: 49%;
+  }
+  .top-search-bar .dropdown .btn-toggle {
+    padding: 0px 0px;
+    width: 133px;
+    font-size: 13px;
+  }
+  .top-search-bar {
+    width: 95%;
+  }
+  .top-notification-section a {
+    white-space: nowrap;
+    font-size: 16px;
+  }
+  .topbar-table-section {
+    flex-wrap: wrap;
+  }
+  .common-table-section {
+    padding: 20px 5px;
+  }
+  .filter-section ul {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .nav-tab-link span {
+    font-size: 12px;
+  }
+  .nav-tab-custom {
+    margin-bottom: 14px;
+  }
+  .nav-tab-link-active {
+    padding: 10px 19px;
+
+    white-space: nowrap;
+  }
+}

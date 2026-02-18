@@ -1,0 +1,272 @@
+/* Dm sans */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/*inter  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --theme-color: #0273be;
+  --font-dm: "DM Sans", sans-serif;
+  --white-color: #fff;
+  --light-color: #767da5;
+  --text-font: "Inter", sans-serif;
+}
+body {
+  background-color: #d9d9d961;
+  overflow-x: hidden;
+  font-family: var(--font-dm);
+  font-weight: 400;
+  padding: 14px;
+}
+.container-fluid {
+  padding: 0px 7px;
+}
+.white-color {
+  color: #fff;
+}
+.black-light {
+  color: #2d3345;
+}
+.heading-color {
+  color: #151515;
+}
+.gray-light {
+  color: hsl(226, 6%, 57%);
+}
+.gray-text {
+  color: #767da5;
+}
+.border-c {
+  color: #b6b7c1;
+}
+.cancel-btn {
+  border: 1px solid var(--theme-color);
+}
+.border-radius-8 {
+  border-radius: 8px;
+}
+.common-border {
+  border: 1px solid #ebebeb;
+}
+.theme-color {
+  color: #0273be;
+}
+.fm-dem {
+  font-family: "DM Sans", sans-serif;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-26 {
+  font-size: 26px;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.border-radius {
+  border-radius: 12px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--theme-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.btn:active {
+  outline: unset;
+  border: unset;
+}
+
+/* hover */
+
+.export-btn:hover {
+  border: 1px solid var(--theme-color);
+  color: var(--theme-color) !important;
+}
+.create-modal:hover {
+  background-color: var(--theme-color);
+  color: #fff !important;
+}
+
+/* toggle */
+input#flexSwitchCheckChecked {
+  width: 24px;
+}
+.form-check.form-switch {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create_new-modal .container {
+  padding: 0px;
+}
+.created {
+  border: 1px solid #d0d5dd;
+  padding: 2px 5px;
+  margin-right: 10px;
+  border-radius: 4px;
+  color: #344054;
+}
+
+.updated {
+  border: 1px solid #d0d5dd;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #344054;
+}
+
+.created::before {
+  content: "• ";
+  color: blue;
+}
+
+.updated::before {
+  content: "• ";
+  color: green;
+}
+.view-data {
+  background: #0273be1a;
+  width: 92px;
+  height: 28px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #0273be;
+}
+.delete-user {
+  color: #f04438;
+  font-size: 18px;
+  background: #fff;
+  border: 1px solid #f04438;
+  width: 96px;
+  height: 40px;
+}
+.create-sections {
+  padding-top: 11px !important;
+}
+.carrier-detials {
+  padding: 15px;
+  border: 1px solid #eaecf0;
+}
+
+.carrier-details-list {
+  border-bottom: 1px solid #eaecf0;
+}
+
+.carrier-modal-details {
+  border-radius: 20px;
+}
+.all-doc {
+  gap: 30px;
+  row-gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.doc-section {
+  width: 292px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.pdf-section {
+  border-bottom: 1px solid #eaecf0;
+  padding: 0px 20px 20px 20px;
+}
+
+.file-size-section {
+  padding: 16px;
+}
+
+.pdf-section img {
+  height: 119px;
+  width: 95px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.id-section {
+  border-top: 1px solid #eaecf0;
+}

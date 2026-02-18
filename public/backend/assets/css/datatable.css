@@ -1,0 +1,41 @@
+/* div.dt-container div.dt-layout-row {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+} */
+div.dt-container div.dt-layout-row.dt-layout-table div.dt-layout-cell {
+  display: contents !important;
+}
+.dt-layout-row.dt-layout-table {
+  margin-bottom: 32px;
+}
+/* button.dt-paging-button.disabled.first:before {
+  position: absolute;
+  content: "Perview";
+  background: #fff;
+  color: #0273be;
+  font-size: 19px;
+  border: 1px solid #0273be;
+  border-radius: 5px;
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+
+  top: 0;
+} */
+/* div.dt-container .dt-paging .dt-paging-button.disabled,
+div.dt-container .dt-paging .dt-paging-button.disabled:hover,
+div.dt-container .dt-paging .dt-paging-button.disabled:active {
+  cursor: default;
+  color: rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid transparent;
+  background: transparent;
+  box-shadow: cadetblue;
+  content: "perview";
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+  margin-left: 2px;
+  text-align: center;
+  margin-right: 33px;
+  margin: top;
+  margin-top: 0px;
+} */
