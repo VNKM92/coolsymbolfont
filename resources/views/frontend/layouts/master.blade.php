@@ -15,6 +15,9 @@
     <link rel="icon" type="image/x-icon" href="{{url('public/frontend/fav/coolsymbolonline.ico') }}">
     <meta content='all' name='robots'/>
     <meta content='index, follow' name='robots'/>
+
+    <!-- jQuery CDN  this is use for font-counter-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
     <!--adsense-->
     <meta name="google-adsense-account" content="ca-pub-8970206615812210">

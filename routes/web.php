@@ -38,6 +38,11 @@ use App\Http\Controllers\HomeBaseController;
     // Route::get('/', function () {return view('welcome');});
 
      Route::get('/', [HomeDashboardController::class, 'welcome']);
+     Route::get('/advanced-text-analyzer', [HomeDashboardController::class, 'advancedtextanalyzer']);
+     Route::get('/fancy-text-generator', [HomeDashboardController::class, 'fancytextgenerator']);
+
+
+     
    
 
 

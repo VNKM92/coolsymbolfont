@@ -63,6 +63,22 @@ class HomeDashboardController extends Controller
     }
 
 
+    public function advancedtextanalyzer(Request $request){
+        
+        return view('frontend.font.advancedtextanalyzer');
+
+    }
+
+
+    public function fancytextgenerator(Request $request){
+        
+        return view('frontend.font.fancytextgenerator');
+
+    }
+
+    
+    
+
 
 
     
