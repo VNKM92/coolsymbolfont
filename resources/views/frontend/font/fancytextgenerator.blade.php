@@ -17,20 +17,20 @@
 			  <div class="max-w-5xl mx-auto">
                 <div class="flex justify-between items-center mb-4">
                     <h1 class="text-3xl font-bold">✨ Fancy Text Generator</h1>
-                    <button id="toggleTheme" class="px-4 py-2 bg-green-600 rounded hover:bg-green-700">Toggle Theme</button>
+                    <button id="toggleTheme" class="px-4 py-2 bg-teal-600 text-white rounded hover:bg-teal-700">Toggle Theme</button>
                 </div>
 
                 <textarea id="inputText" placeholder="Type your text here..." 
-                    class="w-full p-3 rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500 mb-2"></textarea>
+                    class="w-full p-3  rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 mb-2"></textarea>
 
                 <div class="flex flex-wrap gap-2 mb-4">
-                    <select id="fontFilter" class="p-2 rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    <select id="fontFilter" class="p-2 rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500">
                     <option value="all">All Fonts</option>
                     </select>
                     <input type="text" id="searchText" placeholder="Search styles..." 
-                    class="p-2 rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-green-500 flex-1"/>
-                    <button id="generateBtn" class="px-6 py-2 bg-green-600 rounded hover:bg-green-700">Generate Styles</button>
-                    <button id="downloadBtn" class="px-6 py-2 bg-green-600 rounded hover:bg-green-700">Download TXT</button>
+                    class="p-2 rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 flex-1"/>
+                    <button id="generateBtn" class="px-6 py-2 text-white bg-teal-600 rounded hover:bg-teal-700">Generate Styles</button>
+                    <button id="downloadBtn" class="px-6 py-2 bg-teal-600  text-white rounded hover:bg-teal-700">Download TXT</button>
                 </div>
 
                 <div id="output" class="space-y-2 max-h-[60vh] overflow-y-auto"></div>
@@ -98,7 +98,7 @@
                     const div=document.createElement("div");
                     div.className="bg-gray-300 dark:bg-gray-700 p-2 rounded flex justify-between items-center";
                     div.innerHTML=`<span>${s}</span>
-                    <button class="ml-2 text-sm bg-green-300 px-2 py-1 rounded hover:bg-green-400">Copy</button>`;
+                    <button class="ml-2 text-sm bg-teal-300 px-2 py-1 rounded hover:bg-teal-400">Copy</button>`;
                     div.querySelector("button").addEventListener("click",()=>navigator.clipboard.writeText(s));
                     container.appendChild(div);
                 });
